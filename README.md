@@ -20,6 +20,17 @@ This project implements sentiment analysis on movie reviews using machine learni
    python -c "import nltk; nltk.download('stopwords')"
    ```
 
+## Data
+
+This project uses the IMDb movie review dataset. Due to its large size, the dataset is not included in this repository. To obtain the data:
+
+1. Visit http://ai.stanford.edu/~amaas/data/sentiment/
+2. Download the file named 'aclImdb_v1.tar.gz'
+3. Extract the contents into a directory named 'aclImdb' in your project folder
+4. Run the data preprocessing script (included in the notebook) to create 'movie_data.csv'
+
+Note: The 'movie_data.csv' file created by the preprocessing script is also too large for the repository. It will be created locally when you run the preprocessing code.
+
 ## Usage
 
 Open and run the Jupyter notebook `sentiment_analysis.ipynb` to see the implementation and results.
